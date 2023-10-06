@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+body { 
+    font-family: 'Roboto', sans-serif;
+    background-color:#FFFFD4;
+    text-align: center;
+    color: #333;    
+}
+
+li {
+    color: white;
+    padding: 100px;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+        background-color:  #FF7F2A;
+    }
+
+  
+
+a {
+    text-decoration: none;
+}
