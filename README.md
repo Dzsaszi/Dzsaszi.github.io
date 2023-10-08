@@ -1,1 +1,1 @@
-bencegyarmati.github.io
+gyarmati.bence.github.io
