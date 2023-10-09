@@ -1,0 +1,11 @@
+1. Mire használjuk a HTML-t?
+
+2. Milyen részekből áll egy HTML oldal?
+
+3. Hogy néz ki egy HTML tag (címke)? Milyen fajta HTML tageket ismersz?
+
+4. Mi a szerepe a h1 HTML tagnek? Hány darab lehet belőle egy oldalon?
+
+5. Mi a különbség a blokk szintű és az inline elemek között?
+
+6. Mit kell tudni a fájlok elnevezésével kapcsolatban?

@@ -1,0 +1,17 @@
+1. Milyen fajta listákat ismersz? Mire valók a listák?
+
+2. Sorolj fel 5 HTML elemet és magyarázd el mire valók.
+
+3. Hozz létre egy 3 elemes számozatlan listát, ne legyenek listajelek.
+
+4. Hozz létre egy listát ahol a listajel egy kép: lufi.png
+
+5. Mi a hiba a következő kódban?
+
+h1, h2, h3, h4, h5, h6, h7, h8 [
+    font-size = 20px;
+    color = black;
+    text-align = middle 
+]
+
+

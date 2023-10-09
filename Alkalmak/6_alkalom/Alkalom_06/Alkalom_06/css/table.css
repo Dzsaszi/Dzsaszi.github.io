@@ -1,0 +1,39 @@
+body {
+    background: rgb(214, 214, 214);
+}
+
+div#content {
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgb(204, 248, 248);
+    padding: 5px
+}
+
+div.container {
+    width: 50%;
+    margin: 15px auto;
+    background: rgb(229, 229, 229);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+.colored-table tr:nth-child(even){
+    background-color: aquamarine;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

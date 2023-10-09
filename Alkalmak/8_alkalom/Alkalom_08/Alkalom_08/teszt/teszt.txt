@@ -1,0 +1,15 @@
+1. Milyen hibákat találsz az alábbi formban?
+<form>
+  <input type="radio" id="male" value="male">
+  <label for="male">Férfi</label><br>
+  <input type="radio" id="female" value="female">
+  <label for="female>Nő</label><br>
+  <input type="radio" id="other" value="other">
+  <input type="submit" value="küldés">
+input
+</form>
+2. Hozz létre egy olyan formot, amiben olyan input mező van, ahol számokat lehet küldeni, úgy, hogy 5-össével léptetjük azokat. Negatív értéket is megadhatunk!
+3. Mi az a label, mire való?
+4. Mi a különbség a get és a post metódus között?
+5. Hogyan adhatom meg egy beviteli mezőnek, hogy maximum 8 karaktert fogadjon el?
+6. Amennyiben megadom egy formnak a "multiple" attribútumot, hogyan tud a felhasználó több elemet kiválasztani?

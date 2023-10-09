@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    float: left; /* Float: kiemeli az elemeket, mintha lebegnének
+    Float & clear: tisztázzak, hogy a foat elem hol helyezkedik el */
+
+    background-color: coral;
+}
+
+li a {
+    text-decoration: none;
+    width: 100px;
+    display: block; /* ne felejtsük el */
+    padding: 14px 16px;
+    color: black;
+    text-align: center;
+}
+
+

@@ -1,0 +1,9 @@
+1. Mi a CSS? Mi a CSS szintaktikája?
+
+2. Hogy tehetek egy elemet blokk típusúvá?
+
+3. Lehetőség szerint mekkora legyen egy kép egy weboldalon?
+
+4. Hogyan tudok kommentet írni CSS-ben? Milyen esetben érdemes ezt használni?
+
+5. Hány helyre írható CSS kód? Melyek azok?

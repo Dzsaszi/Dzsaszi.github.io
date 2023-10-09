@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prooktatás Alkalom 6 | Táblázatok</title>
+    <link rel="stylesheet" href="css/table.css">
+</head>
+
+<body>
+    <div id="content">
+        <h1>Táblázatok</h1>
+        <div class="container">
+            <table class="colored-table">
+                <tr>
+                    <th>Vezetéknév</th>
+                    <th>Keresztnév</th>
+                    <th>Születési idő</th>
+                </tr>
+                <tr>
+                    <td>Kovács</td>
+                    <td>Ádám</td>
+                    <td>1978.12.12</td>
+                </tr>
+                <tr>
+                    <td>Kovács</td>
+                    <td>Ágnes</td>
+                    <td>1983.10.11</td>
+                </tr>
+                <tr>
+                    <td>Kovács</td>
+                    <td>Éva</td>
+                    <td>1985.10.22</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2> Táblázatok elrendezése</h2>
+        <div class="container">
+            <table>
+                <caption> Verzió 1</caption>
+                <tr>
+                    <th>Név</th>
+                    <th colspan="3">Kedvenc gyümölcs</th>
+                </tr>
+                <tr>
+                    <td>Kiss Róbert</td>
+                    <td>Banán</td>
+                    <td>Eper</td>
+                    <td>Alma</td>
+                </tr>
+            </table>
+        </div>
+        <div class="container">
+            <table>
+                <caption>Verzió 2</caption>
+                <tr>
+                    <th>Név</th>
+                    <th>Kiss Róbert</th>
+                </tr>
+                <tr>
+                    <th rowspan="3">Kedvenc gyümölcs</th>
+                    <td>Banán</td>
+                </tr>
+                <tr>
+                    <td>Eper</td>
+                </tr>
+                <tr><td>Alma</td></tr>
+            </table>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    text-align: center;
+}
+
+p  {
+    padding: 10px;
+    margin: 10px;
+}
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+div.static {
+    position: static;
+    border: 2px solid black;
+}
+
+div.relative {
+    position: relative;
+    border: 2px solid red;
+    left: 50px;
+}
+
+div.absolute {
+    position: absolute;
+    top: 350px;
+    right: 100px;
+    border: 2px solid green;
+}
+
+div.fix {
+    position: fixed;
+    background: red;
+    color: white;
+    bottom: 100px;
+    right: 50px;
+    padding: 30px;
+}

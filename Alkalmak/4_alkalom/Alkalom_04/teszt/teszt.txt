@@ -1,0 +1,25 @@
+1. Állítsd be egy paragrafus betűméretét 20px nagyságúra, a szövege legyen középre igazítva. Teljes CSS kódot írj!
+
+2. Milyen részekből áll a doboz model belülről kífelé haladva?
+content, padding, border, margin
+3. Magyrázd meg mit jelent a következő kód:
+
+div {
+margin: 10px;
+padding: 10px 5px 5px 10px;
+}
+
+4. Melyik fájlnév helyes?
+
+a. kis kutya.jpg
+b. almásrétes.jpg
+c. narancs-suti.jpg
+d. Kameleon.jpg
+e. szeptemberi-akciok.html
+
+5. Írd az alábbi utasítások mellé billentyűzet kódjukat!
+
+   a. fájl vagy szöveg kivágása vágólapra
+   b. ablakok közti váltás
+   c. összes szöveg kijelölése
+   d. keresés a szövegben

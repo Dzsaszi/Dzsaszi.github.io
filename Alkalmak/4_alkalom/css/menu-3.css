@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+}
+
+li {
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    padding: 16px 8px;
+    color: black;
+}
+
+li a:hover {
+    background-color: rgb(155, 255, 255);
+    padding: 18px 10px; /*nem túl szerencsés használni */
+}
