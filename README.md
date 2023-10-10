@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="/Alkalmak/index.html">Órai anyag</a>
+    <a href="/hf/index.html">Házi feladat</a>
 </body>
 </html>
