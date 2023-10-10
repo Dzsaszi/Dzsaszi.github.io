@@ -12,6 +12,7 @@
     <nav>
         <ul>
             <li><a href="/Alkalmak/">Órai anyagok</a></li>
+            <li><a href="/Alkalmak/1_alkalom/">Órai anyagok</a></li>            
             <li><a href="/hf/">Házi feladatok</a></li>
         </ul>
     </nav>    
