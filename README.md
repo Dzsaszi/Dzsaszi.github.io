@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>GitHub Pages Főoldal</title>
+    <meta charset="UTF-8">
+    <title>Főoldal</title>
 </head>
 <body>
-    <h1>Üdvözöllek a főoldalon!</h1>
-    <p>Ez itt a GitHub Pages főoldala.</p>
+    <header>
+        <h1>Üdvözöllek a főoldalon!</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="/Alkalmak/">Órai anyagok</a></li>
+            <li><a href="/hf/">Házi feladatok</a></li>
+        </ul>
+    </nav>    
+    
 </body>
 </html>
