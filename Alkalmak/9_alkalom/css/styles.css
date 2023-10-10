@@ -3,3 +3,8 @@ div {
     height: 200px;
     background-color: rgb(122, 122, 240);
 }
+
+div:hover {
+    width: 400px;
+    height: 400px;
+}
