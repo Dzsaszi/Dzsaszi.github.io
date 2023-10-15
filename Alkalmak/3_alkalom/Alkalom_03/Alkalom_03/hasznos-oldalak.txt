@@ -1,5 +1,0 @@
-https://validator.w3.org/
-
-https://htmlcheatsheet.com/
-
-https://htmlcheatsheet.com/css/
