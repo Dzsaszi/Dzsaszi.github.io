@@ -41,10 +41,6 @@ aside {
     order: -1; /* Az aside az oldal bal oldalára kerül */
 }
 
-p {
-    
-}
-
 .sections {
     flex: 1;
     display: flex;
