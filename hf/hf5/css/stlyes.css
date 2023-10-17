@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    background-color: #D7B520;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 900;
+}
+
+header {    
+    text-align: center;
+    background-color: rgb(177, 173, 173);
+    width: 100%;
+}
+
+img {
+    border-radius: 10px;
+    height: 300px;
+    width: 600px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+}
+
+aside {
+    background-color: rgb(112, 112, 233);
+    width: 30%;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    order: -1; /* Az aside az oldal bal oldalára kerül */
+}
+
+p {
+    
+}
+
+.sections {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* A szekciók egymás alá kerülnek */
+}
+
+section {
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Kisebb térköz a szekciók között */
+}
+
+#section1 {
+    background-color: rgb(255, 217, 224);
+    
+}
+
+#section2 {
+    background-color: rgb(245, 214, 173);
+}
+
+#section3 {
+    background-color: rgb(215, 215, 255);
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    background-color: rgb(177, 173, 173);
+}
