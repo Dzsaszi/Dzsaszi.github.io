@@ -74,3 +74,15 @@ body {
   .content a:hover {
     color: #1e8bc3;
   }
+
+  #js-hazi .icon {
+    color: #ff8c00; /* Az ikon színének beállítása (narancssárga) */
+   }
+   
+   #js-hazi .content a {
+    color: #ff8c00; /* A link színének beállítása (narancssárga) */
+   }
+   
+   #js-hazi .box:hover {
+    background-color: #ffefd5; /* A doboz háttérszínének beállítása (világos narancssárga) */
+   }
