@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webfejlesztés gyakorlása</title>
+  </head>
+  <body>
+    <script>
+      // Változók létrehozása
+
+      let name = "Bence";
+      let friendName = "Leila";
+
+      // Vált. kiírása
+      console.log(name);
+      console.log(friendName);
+
+      // Konstans
+      const PI = 3.14159;
+
+      console.log(PI);
+
+      // PI érték megváltoztatása
+
+      //Több változó különböző adattípusokkal
+
+      let nyitva = true;
+      let szamValt = 40;
+      let sztringValt = "Ez egy szöveg";
+
+      console.log(nyitva, szamValt, sztringValt);
+
+      //Objektum
+
+      let person = {
+        nev: "Bence",
+        eletkor: 34,
+        varos: "Fót",
+      };
+
+      // Értékek defi.
+
+      let initializedValtozo = "Inicializált érték";
+      let emptyValtozo;
+
+      console.log(initializedValtozo, emptyValtozo);
+
+      // Alapműveletek
+
+      let szam1 = 10;
+      let szam2 = 5;
+
+      let osszeadas = szam1 + szam2;
+      let kivonas = szam1 - szam2;
+      let szorzas = szam1 * szam2;
+      let osztas = szam1 / szam2;
+      let maradekosOsztas = szam1 % szam2;
+
+      console.log(osszeadas, kivonas, szorzas, osztas, maradekosOsztas);
+
+      // Műveleti sorrend
+
+      let eredmeny = 10 + 5 * osztas;
+      let eredmeny1 = (szam1 + szam2) * szam2;
+
+      console.log(eredmeny, eredmeny1);
+
+      // Interakció
+
+      //alert("Üdvözöllek az oldalon!");
+
+      let userName = prompt("Mi a neved?");
+      console.log("Üdvözöllek " + userName + "!");
+
+      //Elágazások
+
+      let kor = prompt("Hány éves vagy?");
+
+      if (parseInt(kor) >= 18) {
+        console.log("Hozzáférhetsz a tartalomhoz");
+      } else {
+        console.log("Nem férhetsz hozzá a tartalomhoz!");
+      }
+
+      //Végezetül
+
+      let szamA = 10;
+      let szamB = 20;
+
+      let osszeg = szamA+szamB;
+
+      console.log(osszeg)
+    </script>
+
+    <h1>A házifeladat az F12-vel látható</h1>
+  </body>
+</html>
