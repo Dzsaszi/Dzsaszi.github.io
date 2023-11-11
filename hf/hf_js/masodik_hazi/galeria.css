@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-image {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    margin: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.gallery-image:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;  /* Opcionális: korlátozd a maximális szélességet */
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#modal-image {
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid white;  /* Opcionális: keret a kép körül */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);  /* Opcionális: árnyék a kép körül */
+}
+
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.prev, .next {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.prev {
+    left: 25px;
+}
+
+.next {
+    right: 25px;
+}
