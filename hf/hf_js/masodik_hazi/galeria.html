@@ -4,42 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="galeria.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
     <title>Image Gallery</title>
   </head>
   <body>
     <div class="gallery-container">
       <img
         src="img/asztal.jpg"
-        alt="Képleírás 1"
+        alt="Ebéd készítés"
         class="gallery-image"
         data-large="img/asztal.jpg"
       />
       <img
         src="img/oz.jpg"
-        alt="Képleírás 2"
+        alt="Bambi az erdőben"
         class="gallery-image"
-        data-large="/img/oz.jpg"
+        data-large="img/oz.jpg"
       />
       <img
         src="img/tuzi.jpg"
-        alt="Képleírás 3"
+        alt="Ünnepi tűzijáték"
         class="gallery-image"
         data-large="img/tuzi.jpg"
       />
       <img
         src="img/koli.jpg"
-        alt="Képleírás 1"
+        alt="Prédáját néző kolibri"
         class="gallery-image"
         data-large="img/koli.jpg"
       />
       <img
         src="img/csend.jpg"
-        alt="Képleírás 1"
+        alt="Ennél a képnél kevés szemlélteti jobban a nyugalmat"
         class="gallery-image"
         data-large="img/csend.jpg"
       />
       <!-- Add more images as needed -->
-    </div>   
+    </div>
 
     <div id="myModal" class="modal">
       <span class="close">&times;</span>
@@ -47,9 +49,6 @@
       <span class="next">&gt;</span>
       <img id="modal-image" src="" alt="Nagy méretű kép" />
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="script.js"></script>
 
     <script>
       $(document).ready(function () {
@@ -60,36 +59,21 @@
           $("#myModal").fadeIn();
         });
 
-        // Open Modal Button Click event
-        $("#openModalBtn").on("click", function () {
-          $("#myModal").fadeIn();
-        });
-
         // Click event for closing the modal
         $(".close, #myModal").on("click", function (event) {
-          if ($(event.target).is("#myModal") || $(event.target).is(".close")) {
-            $("#myModal").fadeOut();
-          }
-        });
-
-        // Prevent modal image click from closing the modal
-        $("#modal-image").on("click", function (event) {
-          event.stopPropagation();
-        });
-
-        // Keyboard shortcuts
-        $(document).on("keydown", function (event) {
-          if (event.key === "Escape") {
+          if ($(event.target).is(".close")) {
             $("#myModal").fadeOut();
           }
         });
 
         // Image preloading
-        $(".gallery-image").each(function () {
-          var largeImageUrl = $(this).data("large");
-          var img = new Image();
-          img.src = largeImageUrl;
-        });
+        $(".gallery-image")
+          .slice(0, 3)
+          .each(function () {
+            var largeImageUrl = $(this).data("large");
+            var img = new Image();
+            img.src = largeImageUrl;
+          });
 
         // Image navigation
         $(".prev, .next").on("click", function (event) {
@@ -108,7 +92,7 @@
         });
       });
 
-      // Kattintás esemény a modális háttérre
+      // Click event to close modal when clicking on the modal background
       $("#myModal").on("click", function (event) {
         if ($(event.target).is("#myModal")) {
           $("#myModal").fadeOut();
