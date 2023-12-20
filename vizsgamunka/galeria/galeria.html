@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/galeria_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>Galéria | Leila Nails</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Leila Nails</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/index.html">Kezdőlap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/szolgaltatasok/szolgaltatasok.html"
+                >Szolgáltatások</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/galeria/galeria.html">Galéria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/kapcsolat/kapcsolat.html">Kapcsolat</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="card-container" id="cardContainer">
+      <div class="card animate" id="card1">
+        <div class="card-back"></div>
+        <img src="/galeria/img/ballagasi-nudenails.png" alt="" />
+      </div>
+      <div class="card animate" id="card2">
+        <div class="card-back"></div>
+        <img src="/galeria/img/birthday-nails.png" alt="" />
+      </div>
+      <div class="card animate" id="card3">
+        <div class="card-back"></div>
+        <img src="/galeria/img/frenchnails.png" alt="" />
+      </div>
+      <div class="card animate" id="card4">
+        <div class="card-back"></div>
+        <img src="/galeria/img/karacsonyi.png" alt="" />
+      </div>
+      <div class="card animate" id="card5">
+        <div class="card-back"></div>
+        <img src="/galeria/img/beautiful-purple.png" alt="" />
+      </div>
+
+      <div class="card animate" id="card6">
+        <div class="card-back"></div>
+        <img src="/galeria/img/halloween.png" alt="" />
+      </div>
+      <div class="card animate" id="card7">
+        <div class="card-back"></div>
+        <img src="/galeria/img/epitett-pink.png" alt="" />
+      </div>
+      <div class="card animate" id="card8">
+        <div class="card-back"></div>
+        <img src="/galeria/img/erositett-pinknail.png" alt="" />
+      </div>
+      <div class="card animate" id="card9">
+        <div class="card-back"></div>
+        <img src="/galeria/img/green.png" alt="" />
+      </div>
+      <div class="card animate" id="card10">
+        <div class="card-back"></div>
+        <img src="/galeria/img/kek.png" alt="" />
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2023 Minden jog fenntartva!</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/pozsar.leila" target="_blank">
+          <i class="fa-brands fa-facebook fa-fade fa-2x"></i>
+        </a>
+        <a href="https://www.instagram.com/leylikee_nails/" target="_blank"
+          ><i class="fa-brands fa-instagram fa-2x"></i
+        ></a>
+
+        <a href="http://leilapozsar@gmail.com" target="_blank">
+          <i class="fa-solid fa-at fa-2x"></i
+        ></a>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Custom JavaScript -->
+      <script src="script.js"></script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var toggler = document.querySelectorAll(".navbar-toggler");
+          toggler.forEach(function (element) {
+            element.addEventListener("click", function () {
+              var target = document.querySelector(
+                element.getAttribute("data-target")
+              );
+              if (target.classList.contains("show")) {
+                target.classList.remove("show");
+              } else {
+                target.classList.add("show");
+              }
+            });
+          });
+        });
+      </script>
+    </footer>
+  </body>
+</html>
