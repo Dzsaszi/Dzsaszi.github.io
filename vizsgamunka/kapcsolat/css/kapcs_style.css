@@ -7,7 +7,9 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background: linear-gradient(0deg, #ff0080, #ff8c00, #ff0080, #ff8c00);
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
@@ -15,13 +17,8 @@ body {
 }
 
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 20px;
-  width: 50%;
-  padding: 15px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar-brand {
@@ -33,10 +30,6 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-}
-
-.navbar-nav .nav-item {
-  margin: 10px 0;
 }
 
 .nav-link {
